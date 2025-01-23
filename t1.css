@@ -1,0 +1,186 @@
+/* * {
+    font-family: vazir;
+} */
+@font-face {
+    font-family: "Vazir";
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Vazir";
+    font-weight: bold;
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Bold.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Bold.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Bold.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Bold.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Vazir";
+    font-weight: normal;
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Vazir";
+    font-weight: 900;
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Black.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Black.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Black.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Black.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Black.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "Vazir";
+    font-weight: 500;
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Medium.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Medium.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Medium.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Medium.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Vazir";
+    font-weight: 300;
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Light.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Light.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Light.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Light.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Light.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Vazir";
+    font-weight: 100;
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Thin.eot);
+    src: url(../Font/fonts/vazir-font-v16.1.0/Vazir-Thin.eot) format("embedded-opentype"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Thin.woff2) format("woff2"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Thin.woff) format("woff"),
+        url(../Font/fonts/vazir-font-v16.1.0/Vazir-Thin.ttf) format("truetype");
+}
+.h1_onvan {
+    background: linear-gradient(rgb(176, 78, 251), rgb(203, 86, 250), rgb(177, 92, 251));
+    filter: drop-shadow(rgba(129, 5, 254, 0.945));
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav_first {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: blanchedalmond; */
+    background: linear-gradient(rgb(249, 249, 249), rgb(149, 149, 149), rgb(244, 244, 244));
+    text-align: right;
+}
+
+section#home h2 {
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* استایل لیست بخش دوره ها مالی و اشتراک و................................ */
+
+/* تنظیم استایل اصلی لیست */
+section#home nav ul {
+    width: 50%;
+    /* تنظیم عرض لیست */
+    margin: 0 auto;
+    /* وسط‌چین کردن لیست */
+    padding: 0;
+    /* حذف فاصله‌های داخلی */
+}
+
+section#home nav ul li {
+    color: black;
+    background: linear-gradient(90deg, #0effdb, #29ffe6);
+    text-align: center;
+    list-style-type: none;
+    padding: 15px;
+    margin: 10px 0;
+    /* فاصله بین آیتم‌ها */
+    border: solid black 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* تغییر رنگ هنگام هاور */
+section#home nav ul li:hover {
+    background: linear-gradient(90deg, #29ffe6, #0effdb);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* لینک‌ها درون آیتم‌ها */
+section#home nav ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+/* استایل لوگو وعکس سایت و استایل نوار جستجو */
+img[src="../Img/site logo.png"] {
+    filter: drop-shadow(10px 10px 10px rgb(5, 5, 5));
+}
+
+
+/* استایل بخش درباره من و about me  */
+
+section#about_me h2 {
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: solid #000000 2px;
+    border-radius: 10px;
+    background: linear-gradient(#4cfce2, #11ffe3, #0effdb);
+}
+
+.style-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Cal;
+    background: url(../Img/image.jpg);
+}
+
+/*  و بالای نوار سایت رزومه محمد استایل بخش اول سایت ================================= */
+
+header#header_onvan h2 {
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 600;
+    font-style: unset;
+    color: blueviolet;
+}
+
+header#header_onvan p.paragragh {
+    font-style: italic;
+    margin: 0px 0px 30px 0px;
+}
+
+section#img_section { 
+    background: linear-gradient(236deg, rgba(250, 103, 165, 0.6) , rgba(207, 73, 255, 0.621) , rgba(146, 43, 250, 0.558)) , url(../Img/796860.png);
+    background-position: -0 50%;
+    background-size: cover;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    filter: drop-shadow(5px 3px 4px red);
+    box-sizing: border-box;
+    border: dashed 3px red;
+    border-radius: 30px;
+    width: 100%;
+    height: 400px;
+}
